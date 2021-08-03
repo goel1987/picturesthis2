@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_first_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="431dp"
+        android:layout_height="727dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/blackmessiah"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="323dp"
+        android:layout_height="94dp"
+        android:text="Judas And The Black Messiah?"
+        android:textColor="@color/white"
+        android:textColorHighlight="#121111"
+        android:textColorHint="#121111"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <FrameLayout
+        android:layout_width="401dp"
+        android:layout_height="9dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="328dp">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
